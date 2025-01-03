@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Contact {
+public class Contact implements GetName {
     // do we need generics to create contact
     // we don't need a generic in contact because it is the lowest fundamental object. Based on contact, we can't modify the contact anymore. So, it should treated as a struct but since our code requires an interface to work, we have to implement it .
     // why it requires interface?
